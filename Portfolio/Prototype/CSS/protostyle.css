@@ -1,0 +1,24 @@
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px,10%;
+    background-color: darkgreen;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.h1{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.img{
+    border-radius: 60px;
+    padding: 60px;
+}
