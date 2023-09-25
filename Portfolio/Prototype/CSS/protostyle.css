@@ -3,22 +3,54 @@
     top:0;
     left:0;
     width:100%;
-    padding:20px,10%;
-    background-color: darkgreen;
+    padding: 20px,10%;
+    background-color:darkslategrey;
     display:flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     align-items: center;
     z-index: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 
 .h1{
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-family: 'Karla', sans-serif;
-    font-family: 'Raleway', sans-serif;
-
 }
 
-.img{
-    border-radius: 60px;
-    padding: 60px;
+body{
+    background-color: azure;
+}
+
+.logo{
+    border-radius: 40px;
+    padding: 22px;
+    padding-left: 20px;
+}
+
+.navigation a{
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 68px;
+    padding-left: 40px;
+    transition: 4s;
+}
+
+.welcome{
+    padding-top: 60px;
+}
+
+.mainBanner{
+    padding-top: 82px;
+    padding-left: 20px;
+}
+
+.mainBanner h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+.numberGoal h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
